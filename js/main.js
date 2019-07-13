@@ -22,3 +22,13 @@ minus.addEventListener('click', (e) => {
     showNum.textContent = subtract(curNum, secNum);
     input.value = '';
 }, false);
+
+plus.addEventListener('click', (e) => {
+    let curNum = document.querySelector('p').innerText;
+    curNum = Number((curNum))
+    firstNum = Number(input.value);
+    showNum.textContent = add(firstNum, curNum);
+    input.value = '';
+})
+
+input.value = '';
