@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  p {
+      margin: 50% 0 0 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+  }
