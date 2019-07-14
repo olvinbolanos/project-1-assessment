@@ -32,3 +32,4 @@ plus.addEventListener('click', (e) => {
 })
 
 input.value = '';
+
