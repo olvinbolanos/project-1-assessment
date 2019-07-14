@@ -5,7 +5,6 @@ section {
   }
   
   p {
-      margin: 50% 0 0 0;
       display: flex;
       font-size: 60px;
       font-weight: bold;
